@@ -27,10 +27,34 @@
     align-items: center;
 }
 
+.cell img {
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
 .black {
     background-color: deepskyblue;
 }
 
 .white {
     background-color: #eed4ac;
+}
+
+.selected {
+    background-color: rgb(255, 70, 70);
+}
+
+.available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(173, 255, 47);
+}
+
+.lost {
+    height: calc(50vh - 60px);
+    padding: 30px;
+    margin-left: 50px;
+    background-color: deepskyblue;
 }
